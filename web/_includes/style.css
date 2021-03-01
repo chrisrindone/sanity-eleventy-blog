@@ -169,7 +169,7 @@ article img {
   max-width: 100%;
 }
 
-main {
+nav, main, footer {
   max-width: 65rem;
             margin: 0 auto;
             padding: 0 1rem;
