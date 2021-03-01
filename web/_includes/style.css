@@ -147,7 +147,16 @@ a:hover {
 /* CUSTOMIZATIONS */
 
 nav {
-  word-spacing: 2vw;
+  word-spacing: 5vw;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 ul.nav, li.nav {
