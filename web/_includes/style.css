@@ -146,6 +146,10 @@ a:hover {
 
 /* CUSTOMIZATIONS */
 
+nav {
+  word-spacing: 2vw;
+}
+
 ul.nav, li.nav {
   list-style: none;
   display: inline;
