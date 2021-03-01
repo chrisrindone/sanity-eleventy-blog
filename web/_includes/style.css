@@ -151,7 +151,7 @@ ul.nav, li.nav {
 }
 
 .postlist-date {
-  font-size: small;
+  font-size: 1.1rem;
   font-family: SFMono-Regular, Menlo, Monaco,
                Consolas, "Liberation Mono",
                "Courier New", monospace;
@@ -184,6 +184,8 @@ main li p {
 
 footer p {
   font-size: 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid #444;
 }
   
 
