@@ -59,10 +59,6 @@ article {
     padding: 5rem 0rem;
 }
 
-article>p>span {
-  font-size: small;
-}
-
 section {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -168,6 +164,12 @@ ul.nav, li.nav {
 article img {
   max-width: 100%;
 }
+
+article>p>span {
+  font-size: small;
+  margin-left: 3rem;
+}
+
 
 main, footer {
   max-width: 65rem;
