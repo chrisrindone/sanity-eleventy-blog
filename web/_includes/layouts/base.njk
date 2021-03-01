@@ -16,15 +16,27 @@
   <body>
     <header>
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+       <nav>
+        <div id="nav">
+          <h1><a href="{{ '/' | url }}" title="Homepage">{{ metadata.title }}</a></h1>
+          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          {%- for entry in collections.all | eleventyNavigation %}
+            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+          {%- endfor %}
+        </div>
+        <div id="reading-progress" aria-hidden="true"></div>
+      </nav>
+      
+      <!--
       <nav>
-      <!-- <a href="{{ '/' | url }}">Home</a> <a href="#">About</a> <a href="https://twitter.com/chrisrindone" target="_blank" rel="noopener">Twitter</a> 
-      <a href="https://github.com/chrisrindone" target="_blank" rel="me noopener">GitHub</a> -->
       <ul class="nav">
         {%- for nav in collections.nav | reverse -%}
         <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
         {%- endfor -%}
       </ul>
       </nav>
+      
+      -->
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
