@@ -18,7 +18,7 @@ body {
 }
 
 footer p {
-  font-size: small;
+  font-size: 0.8rem;
 }
 
 h1 {
@@ -166,8 +166,8 @@ article img {
 }
 
 article>p>span {
-  font-size: small;
-  margin-left: 3rem;
+  font-size: 0.8rem;
+  margin-left: 2rem;
 }
 
 
