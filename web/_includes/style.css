@@ -148,6 +148,7 @@ a:hover {
 
 ul.nav, li.nav {
   list-style: none;
+  display: inline;
 }
 
 .postlist-date {
