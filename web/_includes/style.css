@@ -177,8 +177,7 @@ main > ol {
   list-style: none;
 }
 
-main > li > p {
-  margin-bottom: 1.2rem;
+main li p {
   font-size: 1.1rem;
 }
 
