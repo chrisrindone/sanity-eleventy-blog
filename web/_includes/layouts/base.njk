@@ -16,12 +16,11 @@
   <body>
     <header>
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-      <nav>Home About Twitter GitHub </nav>
+      <nav><a href="{{ '/' | url }}">Home</a> <a href="#">About</a> <a href="https://twitter.com/chrisrindone" target="_blank" rel="noopener">Twitter</a> <a href="https://github.com/chrisrindone" target="_blank" rel="me noopener">GitHub</a> </nav>
       <ul class="nav">
         {%- for nav in collections.nav | reverse -%}
         <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
         {%- endfor -%}
-        <li><a href="https://github.com/chrisrindone" target="_blank" rel="me noopener">GitHub</li>
       </ul>
     </header>
 
