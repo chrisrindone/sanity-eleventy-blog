@@ -20,7 +20,7 @@
         {%- for nav in collections.nav | reverse -%}
         <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
         {%- endfor -%}
-        <li><a href="https://github.com/chrisrindone" target="_blank" rel="me noopener"></li>
+        <li><a href="https://github.com/chrisrindone" target="_blank" rel="me noopener">GitHub</li>
       </ul>
     </header>
 
