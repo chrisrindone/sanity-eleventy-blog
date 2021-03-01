@@ -29,6 +29,10 @@ h1.home {
   font-size: 2.1rem;
 }
 
+h1.home a {
+  text-decoration: none;
+}
+
 h2 {
     font-style: italic;
     font-weight: 400;
@@ -139,3 +143,18 @@ a:visited {
 a:hover {
   text-decoration: none;
 }
+
+/* CUSTOMIZATIONS */
+
+ul.nav, li.nav {
+  list-style: none;
+}
+
+.postlist-date {
+  font-size: small;
+  font-family: SFMono-Regular, Menlo, Monaco,
+               Consolas, "Liberation Mono",
+               "Courier New", monospace;
+}
+
+
