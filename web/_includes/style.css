@@ -169,11 +169,20 @@ article img {
   max-width: 100%;
 }
 
-nav, main, footer {
+main, footer {
   max-width: 65rem;
             margin: 0 auto;
             padding: 0 1rem;
 }
+
+main > ol {
+  list-style: none;
+}
+
+main > li {
+  margin-bottom: 1.2rem;
+}
+  
 
 
 
