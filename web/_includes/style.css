@@ -177,8 +177,9 @@ main > ol {
   list-style: none;
 }
 
-main > li {
+main > li > p {
   margin-bottom: 1.2rem;
+  font-size: 1.1rem;
 }
 
 footer p {
