@@ -147,7 +147,7 @@ a:hover {
 /* CUSTOMIZATIONS */
 
 nav {
-  word-spacing: 5vw;
+  word-spacing: 3vw;
   font-weight: bold;
 }
 
@@ -161,7 +161,7 @@ nav a:hover {
 
 ul.nav, li.nav {
   list-style: none;
-  display: inline;
+  display:none;
 }
 
 .postlist-date {
