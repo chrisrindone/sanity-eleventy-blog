@@ -17,10 +17,6 @@ body {
     counter-reset: sidenote-counter;
 }
 
-footer p {
-  font-size: 0.8rem;
-}
-
 h1 {
     font-weight: 400;
     margin-top: 4rem;
@@ -166,7 +162,7 @@ article img {
 }
 
 article>p>span {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-left: 2rem;
 }
 
@@ -183,6 +179,10 @@ main > ol {
 
 main > li {
   margin-bottom: 1.2rem;
+}
+
+footer p {
+  font-size: 0.9rem;
 }
   
 
